@@ -7,8 +7,8 @@
 
 #### Javascript typewriter function
 
-####project available at: <br>
-###<https://jupiterorbita.github.io/JS_typewriter/>
+#### project available at: <br>
+### <https://jupiterorbita.github.io/JS_typewriter/>
 
 
 ```
