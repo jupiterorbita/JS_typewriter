@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
+  /* center center = for both the X + Y  axis */
+  background: #333 url("showcase.jpg") no-repeat center center / cover;
+  color: #ccc;
+  overflow: hidden;
+}
+
+.container {
+  /* flex puts it by default in horizontal */
+  display: flex;
+  /* putting it in vertical */
+  flex-direction: column;
+  justify-content: center;
+  /* the HEIGHT makes the justify content => centered! */
+  height: 100%;
+  padding: 0 3rem;
+}
+
+/* h1 AND h2 */
+h1,
+h2 {
+  font-weight: 200;
+  margin: 0.4rem;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 2rem;
+  color: #aaa;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    padding: 0 1rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
