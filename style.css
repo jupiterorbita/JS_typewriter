@@ -34,6 +34,28 @@ h2 {
   color: #aaa;
 }
 
+/* Cursor */
+/* targeting the .txt inside the .txt-type (parent) */
+.txt-type > .txt {
+  color: white;
+  border-right: 0.2rem solid #777;
+  border-color: red;
+}
+
+/* ====== Icons ====== */
+.icons {
+  margin-top: 1rem;
+}
+.icons a {
+  padding: 0.4rem;
+  color: #aaa;
+  text-decoration: none;
+}
+.icons a:hover {
+  color: red;
+  transition: all 0.5s ease-out;
+}
+
 @media (min-width: 1200px) {
   h1 {
     font-size: 5rem;
